@@ -1,0 +1,317 @@
+<html>
+    <head>
+        <title>
+            cloning
+        </title>
+        <style>
+            body{
+                width: 1160px;
+            }
+            .main{
+                display: flex;
+                margin-left:10px;
+            }
+            .one{
+                background-color: rgb(255, 255, 255);
+                height: 3px;
+                width: 250px;
+                margin-left:10px;
+               
+               
+                text-decoration: none;
+                padding: 15px;
+                color: orange;
+                
+            }
+            .two{
+                background-color: white;
+                margin-top: 20px;
+                height: 73px;
+                width: 190px; 
+                margin-left:50px;
+            }
+            .three{
+                background-color: orange;
+                height: 0px;
+                width: 190px;
+                margin-left:360px;
+            }
+            .btn1{
+                background-color: rgb(160, 160, 205) ;
+                width:250px;
+                padding: 19px;
+                border: 1px solid blue;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-color: brown;
+            }
+
+            .org{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            .online{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            .dvoc{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+            }
+            .course{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                
+            }
+            .blink {
+            animation: blinker 1s linear infinite;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+
+       
+        .twobtn2{
+            padding: 4px;
+            width:500px;
+            margin-top: 10px;
+            border:1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .twobtn2:hover{
+            background-color: orange;
+        }
+
+        .welcome{
+            width: 500px;
+            background-color: rgb(109, 0, 0);
+            border-radius: 5px;   
+            color: white;
+            height: 55px;
+            margin-top: 20px;
+           color:gold;
+            padding: 1px;
+        }
+        h3{
+            font-family:cursive;
+        }
+        img{
+            margin-top:10px;
+            border-radius:10px;
+        }
+       .merge{
+        display: flex;
+        margin-top: 6px;
+        border: 1px solid blue;
+        height: 130px;
+       }
+       h4{
+        color: rgb(152, 0, 25);
+       }
+       .text{
+        margin-left: 10px;
+       }
+       .img1{
+        margin-left: 10px;
+       }
+       .mer{
+        border: 1px solid blue;
+        margin-top:10px;
+        padding:8px;
+        color: rgb(0, 0, 0);
+        font-family:sans-serif;
+       }
+       h5{
+        font-family:Arial, Helvetica, sans-serif;
+        line-height: 1.6;
+        color: rgb(0, 0, 0);
+       }
+       .head{
+        margin-left: 30px;
+       }
+       .top{
+        cursor:pointer;
+        height:27px;
+        width:90px;
+        font-size:xx-small;
+        border: 2px solid orange;
+        border-radius:10px;
+        padding:3px;
+       }
+       .top:hover{
+        background-color: black;
+        color:white;
+       }
+       .bth{
+        margin-top:10px;
+       }
+       .on{
+        margin-top: 1940px;
+        background-color: pink;
+        height: 570px;
+       }
+       .fb{
+        margin-left:430px;
+        cursor:pointer;
+       }
+       
+        </style>
+    </head>
+    <body>
+        <div class="head">
+           <div class="imh"> <img src="c:\Users\Admin\Downloads\websitelogo sitam.png" width="1100px"></div>
+           <div class="bth"> <button class="top">HOME</button>
+           <a href="https://sitam.co.in/index.php/about-sitam"> <button class="top">ABOUT US</button></a>
+           <a href="https://sitam.co.in/index.php/faculty"> <button class="top">FACULTY</button></a>
+           <a href="https://sitam.co.in/index.php/academics"> <button class="top">ACADEMICS</button></a>
+           <a href="https://sitam.co.in/index.php/admissions"> <button class="top">ADMISSIONS</button></a>
+            <a href="https://sitam.co.in/index.php/placements"> <button class="top">PLACEMENTS</button></a>
+            <a href="https://sitam.co.in/index.php/inrastructure"> <button class="top">INFRASTRUCTURE</button></a>
+            <a href="https://sitam.co.in/index.php/activities"> <button class="top">ACTIVITIES</button></a>
+            <a href="https://sitam.co.in/index.php/alumni"> <button class="top">ALUMNI</button></a>
+            <a href="https://sitam.co.in/index.php/notice">  <button class="top">NOTICE</button></a>
+            <a href="https://sitam.co.in/index.php/naac">  <button class="top">NAAC</button></a>
+            <a href="https://sitam.co.in/index.php/dlms"> <button class="top">DLMS</button></div></div>
+        </div>
+        <div class="main">
+           <div class="one">
+              <div class="blink">
+             <button class="btn1"> <a class="online" href="https://onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=281997">ONLINE FEE PAYMENT</a></button></div>
+              <button class="btn1"><a class="org" href="https://sitam.co.in/images/organogram.jpeg">ORGANOGRAM OF THE INSTITUTION</a></button>
+             <button class="btn1"> <a class="dvoc" href="https://sitam.co.in/index.php/NAAC/288%20-D-VOC%20COURSES">D-VOC COURSES</a></button>
+              <button class="btn1"><a class="course" href="https://sitam.co.in/index.php/NAAC/303%20-bbadupliacate">COURSES(BBA,BCA,MCA)</a></button>
+              <button class="btn1"> <a class="online" href="https://sitam.co.in/index.php/naac/292%292-%20academiccalender">ACADEMIC CALANDERs</a></button>
+              <button class="btn1"><a class="org" href="https://sitam.co.in/index.php/NAAC/287%20-MBA">MBA</a></button>
+             <button class="btn1"> <a class="dvoc" href="#">GOVERNING BODY</a></button>
+              <button class="btn1"><a class="course" href="https://sitam.co.in/index.php/NAAC/268%20-feedback">FEED BACK FORMS</a></button>
+              <button class="btn1"> <a class="online" href="https://sitam.co.in/index.php/NAAC/269%20-aicte">AICTE</a></button>
+              <button class="btn1"><a class="org" href="https://sitam.co.in/index.php/NAAC/274%20-grievances">COMMITTEES</a></button>
+             <button class="btn1"> <a class="dvoc" href="https://sitam.co.in/index.php/NAAC/272%20-member%20comp">IQAC</a></button>
+              <button class="btn1"><a class="course" href="https://sitam.co.in/index.php/naac">ACCREDITATION STATUS</a></button>
+
+              <h5 style="background-color:blue; padding: 2px; color: white;border-radius: 4px;">CORRESPONDENT MESSAGE</h5>
+              <img src="c:\Users\Admin\Downloads\mam.jpg" height="270px" width="260px">
+              <h4 style="text-align:center;">Dr.Botcha Jhanshi Lakshmi
+              Secretary and Correspondent of SITAM
+                "success comes to those who dedicate them selves to their passion"</h4>
+                <h5 style="color: black; line-break: auto;">Foresight, ability to seize the oppurtunity, relentless drive to success and tremendous awareness in recognizing the needs of the industry and integrating technical knowledge with professional inputs are the secret of success behind SITAM. However, in the present scenario ,success comes to those who dedicate them selves to their passion.
+                    we believe in imparting quality education with values. Iam glad to welcome you all for opting SITAM to explore the opppurtunities we offer and iam confident that your graduation here wil be challenging and rewarding experience.</h5>
+                <h4 style="background-color: blue; height: 25px; color: white; padding: 5px; border-radius: 2px;">STUDENT ACHIEVEMENTS</h4>
+                <marquee direction="up" scrollamount="20s" height="400px">
+                    <img src="c:\Users\Admin\Downloads\achivements.jpeg">
+                    <h5>Neha Thomas , student of Sitam engineering college got first prizes in State Level Bharata Natyam and Yuvajanatotshavam compitions.. Botsha Satyanarayana garu congractulated her.</h5>
+                    <img src="c:\Users\Admin\Downloads\lab.jpg">
+                    <h5>Dr. Bijay Kumar Sahu, Regional Manager( IPFC & TISC), NRDC , VIZAG, visited our SITAM campus and inspected the Electric Auto retrofitted by the students . He appreciated the initiative and came forward to extend his help to start the start up unit in sitam campus to produce Electric Bicycles and Autos. Our SITAM Director Sir , Dr Sashibhushana Rao thanked Dr Sahu for his help and advice in taking this Project to the next Level of production. ( NRDC- National Research Development Corporation- A Enterprise of DSIR, Ministry of science & Technology, Govt. Of India</h5>
+                </marquee>
+         
+              
+      
+        </div>
+
+
+
+        <div class="two">
+       <a href="https://www.youtube.com/watch?v=_wjhEcsZ28E">  <button class="twobtn2">College Video For AICTE-EVC inspection-6 April 2024</button></a>
+        <a href="https://sitam.co.in/teachertraining.jpeg"><button class="twobtn2">Teacher's training at SITAM</button></a>
+       <a href="https://sitam.co.in/Untitled-3.pdf">  <button class="twobtn2">POLYTECHNIC BROUCHURE2023</button></a>
+       <a href="https://sitam.co.in/Unique%20Diploma%20Courses%20in%20SITAM.pdf">  <button class="twobtn2">Click here for Unique Diploma Courses in SITAM</button></a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfh17EtKxLx1g2McNTgGtXiS3G5DOuv-z4y3S7yrK7fksz2Ww/viewform"> <button class="twobtn2">Click here for Admission Form</button></a>
+        <a href="https://sitam.co.in/EXAMS%20APPLICATION.docx"> <button class="twobtn2">Click here for Exam Application</button></a>
+
+             <div class="welcome">
+                <h3>Welcome to the GVP-SITAM Vizianagaram Campus</h3>
+                <img src="c:\Users\Admin\Downloads\sitan brochure.jpeg" height="680px" width="500px">
+                <h3>SITAM NAAC CERTIFICATE OF ACCREDATION</h3>
+                <iframe src="https://youtube.com/embed/19xpqLei-5s" frameborder="0" width="425" height="350"></iframe>
+</iframe>
+          <div class="merge">
+          <div class="img1"><img src="c:\Users\Admin\Downloads\sit.jpg" height="100px" width="100px"></div>
+          <div class="text"><h4>Under The Management of Gayatri Vidya Parishad,Visakhapatnam,The Righteous Place for Emerging Technocrats.</h4></div>
+          </div>
+         
+            <div class="mer">
+              <h3>SCHOLARSHIPS FOR DESERVING STUDENTS</h3>
+                <h4>About 30% of the faculty are Doctorates and another 30% are working for doctoral degrees. A.I.C.T.E. Scales of Pay for all the faculty cadres</h4>
+            </div>
+                   </div>
+                   
+             
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="three">
+            <h5 style="background-color: orange; padding:3px; border-radius:4px; width: 220px;">Director Message</h5>
+            <img src="c:\Users\Admin\Downloads\director.jpg" height="150px" width="220px">
+            <h4 style="text-align:center;">Dr.M.SashiBhushanRao
+                Director SITAM
+                "You dont have to be great to start, but you have to start to be great"</h4>
+                <h5>
+                    A college is a location where these students can make a right turn in their priceless and promising lives, and I am pleased to witness the energy of the students who have united and focused to the route that would lead them to their desired dream.
+                </h5>
+
+                <h5 style="background-color: orange; padding:3px; border-radius:4px;">Chairman Message</h5>
+            <img src="c:\Users\Admin\Downloads\botsa-satyanarayana.jpg" height="150px" width="220px">
+            <h4 style="text-align:center;">Botcha Satyanarayana
+                Chairman,GVP-SITAM
+                "We provide not just education, we prepare you for life"</h4>
+                <h5>
+                    GVP-SITAM is excelling as premier Engineering and Technological Institute. The prestigious aspects of our Institution are Infrastructure,well qualified and experienced Faculties committed to nurture the students with positive outlook.
+                </h5>
+                <h5 style="background-color: orange; padding:3px; border-radius:4px;">LATEST UPDATES</h5>
+                <marquee direction="up" scrollamount="17s">
+                    <img src="c:\Users\Admin\Downloads\electricbike.jpeg" height="200px" width="250px">
+                    <img src="c:\Users\Admin\Downloads\comp.webp" height="200px" width="250px">
+                    <img src="c:\Users\Admin\Downloads\civi.webp" height="200px" width="250px">
+                    <img src="c:\Users\Admin\Downloads\ele.webp" height="200px" width="250px">
+                </marquee>
+        </div>
+        </div>
+
+    
+      </div>
+      <br>
+
+       <div class="on">
+        
+        <div class="placements">
+            <marquee direction="left" scrollamount="20s">
+                <img src="c:\Users\Admin\Downloads\place.jpg">
+                <img src="c:\Users\Admin\Downloads\wipro.jpg">
+                <img src="c:\Users\Admin\Downloads\ca.jpg">
+                <img src="c:\Users\Admin\Downloads\po.jpg">
+                <img src="c:\Users\Admin\Downloads\ibm.jpg">
+                <img src="c:\Users\Admin\Downloads\inter.jpg">
+                <img src="c:\Users\Admin\Downloads\10x.jpg">           </marquee>
+            </div>	
+            <h1 style="margin-left:20px">Placements 2021-22</h1>
+            <marquee scrollamount="10s">
+                <img src="c:\Users\Admin\Downloads\tcs1.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs2.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs3.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs4.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs6.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs7.jpg" height="140px" width="140px">
+                <img src="c:\Users\Admin\Downloads\tcs9.jpg" height="140px" width="140px">
+            </marquee>
+            <h1 style="margin-left:20px;">Social Media </h1>
+            <a href="https://www.facebook.com/Sitam.Sgvp/"><img src="c:\Users\Admin\Downloads\fb.png" class="fb" height="50px"></a>
+           <a href="https://www.instagram.com/sitamvzm/reel/CSUIyihpQfT/"> <img src="c:\Users\Admin\Downloads\insta.png"  height="50px"></a>
+            <a href="https://www.youtube.com/playlist?list=PLU0IHnKWOeFUM-vW0eK1HxN1eX8j6GBIj"><img src="c:\Users\Admin\Downloads\youtube.png"  height="50px"></a>
+            <h3 style="margin-left:20px; font-family: Arial, Helvetica, sans-serif; height: 20px; padding:5px; background-color: rgb(0, 0, 0); border-radius: 10px; color:orange;font-size:medium;">For Admissions Contact:  9290251491/8465002566/7331174015, 08922-234779/5,   sitam@sitam.co.in </h3>
+       </div>
+     
+    </body>
+    
+</html>
